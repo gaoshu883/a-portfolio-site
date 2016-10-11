@@ -1,0 +1,188 @@
+/*common*/
+html {
+  background-color: #363636 !important;
+}
+
+body {
+  position: relative;
+  font-family: "Geneva","Arial",sans-serif;
+  font-weight: 400;
+  color: #c87c0f;
+  margin: 1em auto;
+}
+
+header,
+section,
+nav,
+footer,
+div {
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  width: 100%;
+}
+
+.responsive-image {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*Header*/
+.header {
+  border-bottom: 2px solid #ccc;
+}
+
+.header-inner {
+  padding: 1em 1.5em 1.5em;
+}
+
+.header-logo, .header-inner a {
+  width: 6em;
+}
+
+.header-title {
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+
+.header-title h1 {
+  font-size: 3em;
+}
+
+.header-title h4 {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+/*Main*/
+.main {
+  position: relative;
+  margin: 1em 0;
+}
+
+.menu-bar {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+}
+
+.nav {
+  position: absolute;
+  font-size: 110%;
+  width: 100%;
+  text-align: center;
+  padding: 0 2.5em;
+  background: rgba(159,159,159,0.5);
+  z-index: 999;
+}
+
+.description {
+  box-sizing: border-box;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 3.5em;
+  z-index: 998;
+}
+
+.nav-item {
+  display: inline-block;
+  color: #fff;
+}
+
+.nav-item a {
+  padding: 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.nav-item a:hover {
+  background: rgba(255,153,0,0.6);
+}
+
+/*Featured work*/
+.content {
+  margin: 0.75em 2em;
+}
+
+.work-title {
+  margin: 1em 0.25em;
+  font-size: 2em;
+}
+
+.work-title a {
+  padding: 0.25em 0;
+}
+
+.work-title a:hover {
+  opacity: 0.5;
+}
+
+.featured-work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-item {
+  width: 33.33%;
+  padding: 0 0.5em 2em;
+}
+
+.work-image {
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.work-item h3 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 1em auto;
+  width: 100%;
+  text-align: center;
+}
+
+.work-item h3 a:hover {
+  opacity: 0.5;
+}
+
+/*Footer*/
+.social {
+  padding: 0.75em 2em;
+  text-align: center;
+}
+
+.social-link-item {
+ display: inline-block;
+}
+
+.social-link-item a {
+  width: 3em;
+}
+
+.social-link-item a:hover {
+  color: #202020;
+}
+
+/*Modal*/
+.modal-body {
+  line-height: 1.5em;
+}
