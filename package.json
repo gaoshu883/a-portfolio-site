@@ -4,6 +4,7 @@
   "description": "This is my portfolio site",
   "main": "index.js",
   "dependencies": {
+    "autoprefixer": "^6.5.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1"
   },

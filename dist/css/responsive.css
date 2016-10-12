@@ -11,12 +11,12 @@
    padding: 1.5em 0.5em 1em;
  }
 
-  .header-title h1 {
+  .my-name {
     font-size: 2em;
     line-height: 1.5em;
   }
 
-  .header-title h4 {
+  .my-identity {
     font-size: 1.25em;
     line-height: 1.25em;
   }

@@ -64,11 +64,11 @@ a {
   text-align: right;
 }
 
-.header-title h1 {
+.my-name {
   font-size: 3em;
 }
 
-.header-title h4 {
+.my-identity {
   font-size: 2em;
   line-height: 2em;
 }
@@ -149,6 +149,7 @@ a {
 .work-item {
   width: 33.33%;
   padding: 0 0.5em 2em;
+  text-align: center;
 }
 
 .work-image {
@@ -156,15 +157,18 @@ a {
   border-radius: 8px;
 }
 
-.work-item h3 {
-  font-size: 1.5em;
-  line-height: 1.5em;
-  margin: 1em auto;
+.item-title {
+  font-size: 1.35em;
+  line-height: 1.35em;
+  margin: 1em auto 0.5em;
   width: 100%;
-  text-align: center;
 }
 
-.work-item h3 a:hover {
+.item-description {
+  color: #aa7323;
+}
+
+.item-title a:hover {
   opacity: 0.5;
 }
 
