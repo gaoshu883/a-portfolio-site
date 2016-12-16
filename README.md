@@ -1,4 +1,3 @@
 My portfolio site
 ===================
-Welcome to my portfolio site. I'm happy to share my featured work with you.
-You can check the `dist` folder for the final code, and [here](https://gaoshu883.github.io/a-portfolio-site/index.html) is a live webpage.
+This is my portfolio site. It displays my featured work created during my studying for [Front-end Web Develper Nanodegree in Udacity](https://cn.udacity.com/course/front-end-web-developer-nanodegree--nd001). Click [here](http://lu3xiang.top/a-portfolio-site/) and have a look.
