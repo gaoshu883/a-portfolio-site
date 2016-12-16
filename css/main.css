@@ -1,0 +1,356 @@
+/*
+ *
+ * Common
+ *
+ */
+
+html {
+    background-color: #363636 !important;
+}
+
+body {
+    position: relative;
+    font-family: "Geneva", "Arial", sans-serif;
+    font-weight: 400;
+    color: #c87c0f;
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        font-size: 80%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    body {
+        font-size: 90%;
+    }
+}
+
+header,
+section,
+nav,
+footer,
+div {
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    width: 100%;
+}
+
+.responsive-image {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+    border-bottom: 2px solid #ccc;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        border-bottom: none;
+    }
+}
+
+.header-inner {
+    padding: 1em 1.5em 1.5em;
+}
+
+@media screen and (max-width: 500px) {
+    .header-inner {
+        padding: 1.5em 0.5em 1em;
+    }
+}
+
+.header-logo,
+.header-inner a {
+    width: 6em;
+}
+
+@media screen and (max-width: 500px) {
+    .header-logo,
+    .header-inner a {
+        width: 5em;
+    }
+}
+
+.header-title {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+.my-name {
+    font-size: 3em;
+}
+
+@media screen and (max-width: 500px) {
+    .my-name {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+}
+
+.my-identity {
+    font-size: 2em;
+    line-height: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    .my-identity {
+        font-size: 1.25em;
+        line-height: 1.25em;
+    }
+}
+
+
+/*
+ *
+ * Main
+ *
+ */
+
+.main {
+    position: relative;
+    margin: 1em 0;
+}
+
+.menu-bar {
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .menu-bar {
+        display: block;
+        margin: 1em;
+        padding: 0.25em 1em;
+    }
+}
+
+.nav {
+    position: absolute;
+    font-size: 110%;
+    width: 100%;
+    text-align: center;
+    padding: 0 2.5em;
+    background: rgba(159, 159, 159, 0.5);
+    z-index: 999;
+}
+
+@media screen and (max-width: 500px) {
+    .nav {
+        padding: 0;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    .nav {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .nav {
+        text-align: right;
+    }
+}
+
+.description {
+    box-sizing: border-box;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 3.5em;
+    z-index: 998;
+}
+
+@media screen and (max-width: 500px) {
+    .description {
+        font-size: 3em;
+    }
+}
+
+.nav-item {
+    display: inline-block;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-item {
+        display: block;
+    }
+}
+
+.nav-item a {
+    padding: 1em;
+    width: 8em;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-item a {
+        width: 100%;
+        padding: 1em 0;
+    }
+}
+
+.nav-item a:hover {
+    background: rgba(255, 153, 0, 0.6);
+}
+
+@media screen and (max-width: 500px) {
+    .nav-list {
+        font-size: 120%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+
+/*
+ *
+ * Featured work
+ *
+ */
+
+.content {
+    margin: 0.75em 2em;
+}
+
+.work-title {
+    margin: 1em 0.25em;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    .work-title {
+        text-align: center;
+    }
+}
+
+.work-title a {
+    padding: 0.25em 0;
+}
+
+.work-title a:hover {
+    opacity: 0.5;
+}
+
+.featured-work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    width: 33.33%;
+    padding: 0 0.5em 2em;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .work-item {
+        width: 100%;
+        padding: 0 0 2em;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+    .work-item {
+        width: 50%;
+        padding: 0 0.5em 2em;
+    }
+}
+
+.work-image {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.item-title {
+    font-size: 1.35em;
+    line-height: 1.35em;
+    margin: 1em auto 0.5em;
+    width: 100%;
+}
+
+.item-description {
+    color: #aa7323;
+}
+
+.item-title a:hover {
+    opacity: 0.5;
+}
+
+
+/*
+ *
+ * Footer
+ *
+ */
+
+.social {
+    padding: 0.75em 2em;
+    text-align: center;
+}
+
+.social-link-item {
+    display: inline-block;
+}
+
+.social-link-item a {
+    width: 3em;
+}
+
+.social-link-item a:hover {
+    color: #202020;
+}
+
+
+/*
+ *
+ * Modals
+ *
+ */
+
+.modal-body {
+    line-height: 1.5em;
+}
+
+.modal-content a {
+    font-weight: bold;
+}
+
+.modal-content a:hover {
+    text-decoration: underline;
+}
