@@ -317,3 +317,11 @@ a {
 .modal-body {
   line-height: 1.5em;
 }
+
+.modal-content a {
+  font-weight: bold;
+}
+
+.modal-content a:hover {
+  text-decoration: underline;
+}
